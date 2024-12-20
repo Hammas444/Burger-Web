@@ -28,7 +28,7 @@ function Navbar() {
         }`}
       >
         <div className="container-fluid">
-          <a className="navbar-brand" href="/home">
+          <Link className="navbar-brand" to="/home">
             <span
               style={{
                 fontFamily: '"Pacifico", cursive',
@@ -39,7 +39,7 @@ function Navbar() {
             >
               Burger O'Clock
             </span>
-          </a>
+          </Link>
           <span>
             <button
               className="navbar-toggler"
