@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Forum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+.navbar {
+  transition: all 0.3s ease-in-out;
+}
+
+.transparent-navbar {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.scrolled-navbar {
+  background-color: rgba(255, 255, 255, 0.9); /* Adjust color as needed */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+  transition: color 0.3s ease-in-out;
+}
+
+.white-link {
+  color: white !important;
+}
+
+.black-link {
+  color: black !important;
+}
+
+
+  
+  #mainbutton{
+    background-color:#DCE35B ;border-radius: 0%;
+  }
+
+  
+
+  @media screen and (max-width:425px)
+{
+  .carousel-caption h1{
+    font-size: 25px !important;
+  
+  } 
+  .carousel-caption p{
+    font-size: 12px;
+    
+  } 
+  .carousel-caption{
+    margin-bottom: -1px !important;
+  }
+  
+  #mainbutton{
+  width: 130px;
+  font-size: 15px ;
+  }
+
+}

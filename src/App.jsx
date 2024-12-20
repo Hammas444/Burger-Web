@@ -1,0 +1,31 @@
+
+import { Routes,Route } from 'react-router-dom'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Login from './Pages/Login'
+import Home from './Pages/Home'
+import About from './Pages/About'
+import Meals from './Pages/Meals'
+import TableReserve from './Pages/TableReserve'
+
+function App() {
+
+  return (
+    <>
+    
+<Routes>
+
+<Route path='/' element={<Login/>}/>
+<Route path='/home' element={<Home/>}/>
+<Route path='/about' element={<About/>}/>
+<Route path='/meals' element={<Meals/>}/>
+<Route path='/TableReservation' element={<TableReserve/>}/>
+
+</Routes>
+
+
+
+    </>
+  )
+}
+
+export default App
