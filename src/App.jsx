@@ -6,12 +6,13 @@ import Home from './Pages/Home'
 import About from './Pages/About'
 import Meals from './Pages/Meals'
 import TableReserve from './Pages/TableReserve'
+import Navbar from './Components/Navbar'
 
 function App() {
 
   return (
     <>
-    
+    <Navbar/>
 <Routes>
 
 <Route path='/' element={<Login/>}/>
