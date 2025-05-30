@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
 import { Link } from 'react-router-dom'
 
@@ -17,7 +17,7 @@ const Home = () => {
           <div className="carousel-caption  d-md-block" style={{marginBottom: 40}}>
             <h1 style={{fontFamily: '"Poppins", sans-serif', fontWeight: 700, fontSize: 50}}>Burger O'Clock</h1>
             <p>Best Burger Shop for our happy customers</p>
-            <a className="btn btn- btn-" href="Meals.html" role="button" id="mainbutton">Go and Explore</a>
+            <a className="btn btn- btn-" href="/meals" role="button" id="mainbutton">Go and Explore</a>
           </div>
         </div>
       </div>
@@ -31,7 +31,7 @@ const Home = () => {
         A Brand, you deserve to benefit from.
         A Studio, where your dreams and emotions are brought to life.
         A Team, which believes and excels in making impossible, possible.Our team aspires to meet international standards and show excellence in every department of our business. We bear and promise uncompromised Commitment, Service, Quality and Innovation.We aim to initiate all the hard work and keep it simple and fun for our clients.</p>
-      <center><a className="btn btn- btn-lg" href="About.html" role="button" style={{backgroundColor: '#DCE35B', borderRadius: '0%', boxShadow: '2px 2px 10px rgba(105, 105, 105, 0.342)'}}>Learn More</a></center>
+      <center><a className="btn btn- btn-lg" href="/about" role="button" style={{backgroundColor: '#DCE35B', borderRadius: '0%', boxShadow: '2px 2px 10px rgba(105, 105, 105, 0.342)'}}>Learn More</a></center>
     </div>
   </section>
   <br /><br /><br /><br /><br />
@@ -42,7 +42,7 @@ const Home = () => {
           <div className="col-lg-4 col-sm-12 col-md-6">
             <div className="card mt-2" style={{width: '18rem', border: 'none'}}>
               <div className="card-body" style={{backgroundColor: '#ffffff'}}>
-                <a href="Meals.html"><div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="false">
+                <a href="#"><div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="false">
                     <div className="carousel-inner">
                       <div className="carousel-item active">
                         <img src="c1.jpg" className="d-block w-100" alt="..." />
@@ -52,7 +52,7 @@ const Home = () => {
                     </div>
                   </div></a>
                 <br />
-               <Link to="/meals" className="btn btn-" style={{background: 'linear-gradient(to right,#ff8411,#ff3a17)', color: 'white', border: 'none', borderRadius: '0%', width: 250, boxShadow: '2px 2px 10px rgba(105, 105, 105, 0.541)'}}>
+                <Link to="/meals" className="btn btn-" style={{background: 'linear-gradient(to right,#ff8411,#ff3a17)', color: 'white', border: 'none', borderRadius: '0%', width: 250, boxShadow: '2px 2px 10px rgba(105, 105, 105, 0.541)'}}>
                   Explore</Link>
               </div>
             </div>
@@ -60,8 +60,7 @@ const Home = () => {
           <div className="col-lg-4 col-sm-12 col-md-6">
             <div className="card mt-2" style={{width: '18rem', border: 'none'}}>
               <div className="card-body">
-                <a href="Meals.html
-      "><div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
+                <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
                     <div className="carousel-inner">
                       <div className="carousel-item active">
                         <img src="ice-cream-sandwich-cake-featured-500x500.webp" className="d-block w-100" alt="..." />
@@ -69,16 +68,16 @@ const Home = () => {
                         </div>
                       </div>
                     </div>
-                  </div></a>
+                  </div>
                 <br />
-                <a href="Meals.html" className="btn btn-" style={{background: 'linear-gradient(to right,#ff8411,#ff3a17)', color: 'white', border: 'none', borderRadius: '0%', width: 250, boxShadow: '2px 2px 10px rgba(105, 105, 105, 0.541)'}}>Explore</a>
+                <a className="btn btn-" style={{background: 'linear-gradient(to right,#ff8411,#ff3a17)', color: 'white', border: 'none', borderRadius: '0%', width: 250, boxShadow: '2px 2px 10px rgba(105, 105, 105, 0.541)'}}>Explore</a>
               </div>
             </div>
           </div>
           <div className="col-lg-4 col-sm-12 col-md-6">
             <div className="card mt-2" style={{width: '18rem', border: 'none'}}>
               <div className="card-body">
-                <a href="Meals.html"><div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
+                <a ><div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
                     <div className="carousel-inner">
                       <div className="carousel-item active">
                         <img src="shutterstock_1773695441-min-600x600.jpg" className="d-block w-100" alt="..." />
@@ -88,7 +87,7 @@ const Home = () => {
                     </div>
                   </div></a>
                 <br />
-                <a href="Meals.html" className="btn btn-" style={{background: 'linear-gradient(to right,#ff8411,#ff3a17)', color: 'white', border: 'none', borderRadius: '0%', width: 250, boxShadow: '2px 2px 10px rgba(105, 105, 105, 0.541)'}}>Explore</a>
+                <a  className="btn btn-" style={{background: 'linear-gradient(to right,#ff8411,#ff3a17)', color: 'white', border: 'none', borderRadius: '0%', width: 250, boxShadow: '2px 2px 10px rgba(105, 105, 105, 0.541)'}}>Explore</a>
               </div>
             </div>
           </div>
