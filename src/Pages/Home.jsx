@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Footer from '../Components/Footer'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
@@ -51,8 +52,8 @@ const Home = () => {
                     </div>
                   </div></a>
                 <br />
-                <a href="Meals.html" className="btn btn-" style={{background: 'linear-gradient(to right,#ff8411,#ff3a17)', color: 'white', border: 'none', borderRadius: '0%', width: 250, boxShadow: '2px 2px 10px rgba(105, 105, 105, 0.541)'}}>
-                  Explore</a>
+               <Link to="/meals" className="btn btn-" style={{background: 'linear-gradient(to right,#ff8411,#ff3a17)', color: 'white', border: 'none', borderRadius: '0%', width: 250, boxShadow: '2px 2px 10px rgba(105, 105, 105, 0.541)'}}>
+                  Explore</Link>
               </div>
             </div>
           </div>
