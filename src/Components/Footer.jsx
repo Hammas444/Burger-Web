@@ -36,7 +36,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li className="nav-item mb-2">
-                <Link to="/meals" className="nav-link p-0" style={{ color: '#ffffff' }}>
+                <Link to="/about" className="nav-link p-0" style={{ color: '#ffffff' }}>
                   About
                 </Link>
               </li>
