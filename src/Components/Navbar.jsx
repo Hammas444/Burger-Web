@@ -172,7 +172,7 @@ function Navbar() {
           </Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link desktop-link" to="/About" style={{ color: scroll ? '#000' : '#fff' }}>
+          <Link className="nav-link desktop-link" to="/about" style={{ color: scroll ? '#000' : '#fff' }}>
             About
           </Link>
         </li>
