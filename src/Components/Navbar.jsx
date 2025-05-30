@@ -172,7 +172,7 @@ function Navbar() {
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link desktop-link" href="/About" style={{ color: scroll ? '#000' : '#fff' }}>
+          <a className="nav-link desktop-link" href="/about" style={{ color: scroll ? '#000' : '#fff' }}>
             About
           </a>
         </li>
@@ -226,7 +226,7 @@ function Navbar() {
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link offcanvas-link" href="/About" style={{ color: scroll ? '#000' : '#000' }}>
+          <a className="nav-link offcanvas-link" href="/about" style={{ color: scroll ? '#000' : '#000' }}>
             About
           </a>
         </li>
