@@ -138,7 +138,7 @@ function Navbar() {
   }`}
 >
   <div className="container-fluid">
-    <a className="navbar-brand" href="/home">
+    <a className="navbar-brand" href="/">
       <span
         style={{
           fontFamily: '"Pacifico", cursive',
@@ -167,24 +167,24 @@ function Navbar() {
     <div className="collapse navbar-collapse d-none d-lg-block" id="navbarSupportedContent">
       <ul className="navbar-nav ms-auto mb-2 mb-lg-0 desktop-nav">
         <li className="nav-item">
-          <a className="nav-link desktop-link" href="/home" style={{ color: scroll ? '#000' : '#fff' }}>
+          <Link className="nav-link desktop-link" to="/home" style={{ color: scroll ? '#000' : '#fff' }}>
             Home
-          </a>
+          </Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link desktop-link" href="/about" style={{ color: scroll ? '#000' : '#fff' }}>
+          <Link className="nav-link desktop-link" to="/About" style={{ color: scroll ? '#000' : '#fff' }}>
             About
-          </a>
+          </Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link desktop-link" href="/meals" style={{ color: scroll ? '#000' : '#fff' }}>
+          <Link className="nav-link desktop-link" to="/meals" style={{ color: scroll ? '#000' : '#fff' }}>
             Meals
-          </a>
+          </Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link desktop-link" href="/TableReservation" style={{ color: scroll ? '#000' : '#fff' }}>
+          <Link className="nav-link desktop-link" to="/TableReservation" style={{ color: scroll ? '#000' : '#fff' }}>
             Reservation
-          </a>
+          </Link>
         </li>
       </ul>
     </div>
@@ -221,24 +221,24 @@ function Navbar() {
     <div className="offcanvas-body">
       <ul className="navbar-nav mx-auto mb-2 mb-lg-0 offcanvas-nav">
         <li className="nav-item">
-          <a className="nav-link offcanvas-link" href="/home" style={{ color: scroll ? '#000' : '#000' }}>
+          <Link className="nav-link offcanvas-link" to="/home" style={{ color: scroll ? '#000' : '#000' }}>
             Home
-          </a>
+          </Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link offcanvas-link" href="/about" style={{ color: scroll ? '#000' : '#000' }}>
+          <Link className="nav-link offcanvas-link" to="/about" style={{ color: scroll ? '#000' : '#000' }}>
             About
-          </a>
+          </Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link offcanvas-link" href="/meals" style={{ color: scroll ? '#000' : '#000' }}>
+          <Link className="nav-link offcanvas-link" to="/meals" style={{ color: scroll ? '#000' : '#000' }}>
             Meals
-          </a>
+          </Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link offcanvas-link" href="/TableReservation" style={{ color: scroll ? '#000' : '#000' }}>
+          <Link className="nav-link offcanvas-link" to="/TableReservation" style={{ color: scroll ? '#000' : '#000' }}>
             Reservation
-          </a>
+          </Link>
         </li>
       </ul>
     </div>
